@@ -25,12 +25,20 @@ a{
     color: var(--main-accent);
     line-height:1,14;
     letter-spacing: 1.3px;
+    margin-right: 299px;
 }
 .nav-list_link{
     color: var(--main-accent);
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+   
+    margin: 10px;
+     margin-top: 50px;
+     margin-bottom: 100px;
+}
+.main ,.container{
+    padding-bottom: 119px;
 }
 .main-title{
     line-height:1.88;
@@ -39,6 +47,7 @@ a{
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
+    margin-top: 150px;
 }
 .main-list_title{
     color:var(--project-black);
@@ -46,12 +55,19 @@ a{
     font-weight: 700;
     line-height: 4.17;
     text-align: center;
+    margin-right: 170px;
+    margin-left: 170px;
 }
 .main-list_text{
     color: var(--main-text);
     font-size: 14px;
     font-family: 'Roboto Slab', serif;
     text-align: center;
+    margin: 25px;
+}
+.footer .container{
+    padding: 92px 15px 115px;
+
 }
 .footer{
     background-color:var(--project-black);
@@ -88,4 +104,19 @@ a{
     font-weight: 700;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
+img, button{
+    display: block;
+}
+ul, p, h2, button{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 972px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* outline: 2px solid red;  */
+ 
+} 
