@@ -1,7 +1,12 @@
-:root{
-    --main-accent:#FED136;
-    --project-black:rgba(34, 34, 34, 1);
-    --main-list-text-color:#777777;
-    --project-white:#FFFFFF;
-    --placeholder:#BBBBBB;
-}
+
+$Colors: (
+    'main-accent': #FED136,
+    'project-black': rgba(34, 34, 34, 1),
+    'main-list-text-color':#777777,
+    'project-white': #FFFFFF,
+    'placeholder': #BBBBBB,
+);
+@function getColor($key) {
+    @return map-get($Colors, $key);
+  }
+    

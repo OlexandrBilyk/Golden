@@ -1,60 +1,58 @@
-
-.footer .container{
-    padding: 92px 15px 115px;
-
+.footer .container {
+  padding: 92px 15px 115px;
 }
-.footer{
-    background-color:var(--project-black);
-}
-.footer__title{
-    color: var(--project-white);
+.footer {
+  background-color: getColor("project-black");
+  &__title {
+    color: getColor("project-white");
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 116px;
+  }
 }
-.footer-form__container{
+.footer-form {
+  &__container {
     display: flex;
     flex-direction: column;
     height: 214px;
-    flex-wrap: wrap;                
+    flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 28px;
     margin-bottom: 27px;
-}
-.footer-form__input{
-    width:455px;
+  }
+  &__input {
+    width: 455px;
     height: 50px;
     border-radius: 3px;
-    padding: 13px 21px 23px;  
-    
-    
-    
-}
-.footer-form__input, .footer-form__comment{
-    color: var(--placeholder);
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family:'Montserrat', sans-serif ;
-}
-.footer-form__comment{
+    padding: 13px 21px 23px;
+  }
+  &__comment {
     width: 458px;
     height: 212px;
     resize: none;
     padding: 14px 22px;
-}
-.footer-form__btn-submit{
+  }
+  &__input,
+  &__comment {
+    color: var(--placeholder);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+  &__btn-submit {
     width: 242px;
     height: 68px;
-    background-color: var(--main-accent);
-    color: var(--project-white);
+    background-color: getColor('main-accent');
+    color: getColor('project-white');
     font-size: 18px;
-    font-family: 'Montserrat', solid;
+    font-family: "Montserrat", solid;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
     margin: 0 auto;
     display: block;
+  }
 }
